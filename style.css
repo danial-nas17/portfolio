@@ -164,9 +164,9 @@ nav{
 
 .text-main::before{
     content: '';
-    margin:65px 7px;
+    margin:65px 12px;
     background-color: #FFC86B;
-    width: 45px;
+    width: 90px;
     height: 6px;
     display: inline-block;
    
@@ -219,18 +219,126 @@ nav{
     font-weight: 500;
 }
 
-.information{
-    background: #3D3E42;}
+.activity2{
+    display: flex;
+    justify-content: center;
+    gap: 34.33px;
+    margin-top: 50px;
 
-.dani3{
-    color: #FFF;
-    font-family: Playfair Display;
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 150px;
+}
+
+.section2{
+    background: #3D3E42;
+    height: 1500px;
    
 }
 
+.cv-details{
+    margin-top: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.cv-detail{
+    width: 25.393px;
+    height: 25.393px;
+    border-radius: 50%;
+    background-color: #F0BF6C;
+    filter: drop-shadow(0px 0px 19.799999237060547px #F6931E);
+    margin: 10px 0 0 50px;
+     
+   
+    
+}
+
+.cv-detail::before{
+    content: '';
+    background-color: #FFC86B;
+    width: 3px;
+    height: 380px;
+    display: inline-block;
+    margin: 45px 0 0 12px;
+
+}
+
+.cv-text{
+    margin-left: 25px 0 0 60px;
+}
+
+.cv-text h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.cv-text h4{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.cv-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    width: 750px;
+    height: 318px;
+    margin-top: 30px;
+}
+
+
+
+.info{
+    background: #31333B;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-info{
+    width: 530px;
+    height: 318px;
+    
+}
+
+.about-img-section{
+    width: 600px;
+    height: 419.62px;
+    border-radius: 55px 0px 0px 55px;
+    background: #FFC86B;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.about-img-section img{
+    width: 414.828px;
+    height: 565.292px;
+}
+
+.sadra{
+    margin-top:500px;
+}
 
 
 
