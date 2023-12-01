@@ -301,21 +301,28 @@ nav{
 }
 
 .info-container{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 
 }
 
 .about-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 200px;
+}
+
+.about-info h2{
+    margin-left: 110px;
 }
 
 .text-info{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
     width: 530px;
     height: 318px;
     
@@ -336,9 +343,7 @@ nav{
     height: 565.292px;
 }
 
-.sadra{
-    margin-top:500px;
-}
+
 
 
 
